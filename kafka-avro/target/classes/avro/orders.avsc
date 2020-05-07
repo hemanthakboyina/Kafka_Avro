@@ -1,0 +1,14 @@
+{
+     "type": "record",
+     "namespace": "com.example",
+     "name": "Orders",
+     "version": "1",
+     "fields": [
+       { "name": "order_id", "type": "int", "doc": "Order Id Number" },
+       { "name": "item_name", "type": "string", "doc": "Order Name" },
+       { "name": "quantity", "type": "int", "doc": "Number of Items" },
+       { "name": "address", "type": "string", "doc": "Delivery Adress" },
+       { "name": "customer_id", "type": "int", "doc": "Customer Id" },
+       { "name": "payment_status", "type": "boolean", "default": true, "doc": "Field indicating if the payment success or fail" }
+     ]
+}
